@@ -7,7 +7,18 @@ import Weather from "./Weather";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Weather />
+    <div>
+      <Weather />
+      <p>
+        <a
+          href="https://github.com/ollka-ever/react-w4-hw"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Open-source code
+        </a>
+      </p>
+    </div>
   </React.StrictMode>
 );
 
